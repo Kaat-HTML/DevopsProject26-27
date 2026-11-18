@@ -7,18 +7,20 @@ services:
     networks:
       - proxy
   discountbandit:
-    image: cybrarist/discount-bandit:v4
+    image: cybrarist/discount-bandit:v4.0.5
     restart: unless-stopped
     environment:
       DB_CONNECTION: sqlite
+      DB_DATABASE: /app/database/sqlite/database.sqlite
       APP_TIMEZONE: Europe/Brussels
       THEME_COLOR: Red
       APP_URL: http://discountbandit.localhost
       ASSET_URL: http://discountbandit.localhost
-      EXCHANGE_RATE_API_KEY: ""
+      EXCHANGE_RATE_API_KEY: ${EXCHANGE_RATE_API_KEY}
+      APP_KEY: ${APP_KEY}
     volumes:
-      - discountbandit_db:/app/database
-      - discountbandit_logs:/logs
+      - ./database/sqlite:/app/database/sqlite
+      - ./logs:/logs
     networks:
       - proxy
   caddy:

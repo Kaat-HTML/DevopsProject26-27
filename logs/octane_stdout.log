@@ -1,0 +1,5492 @@
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 82 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000392040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x48d001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 147 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc0003cc000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 191 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc0003ba040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 163 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000458e00, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 147 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc00037e000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 164 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000458e80, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 156 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000458e40, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 152 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc0003f2000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 156 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000392040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 147 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc0003a6080, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 204 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000614000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 202 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000614040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 208 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000614080, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 114 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000644940, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 163 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000612140, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 82 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000508100, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 176 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc00037fe40, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 162 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc00037fe00, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 176 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000322580, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 151 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc00039e040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 169 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc00062e280, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 184 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000322080, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 152 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000052040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine {"level":"error","ts":1795021538.7349105,"logger":"frankenphp","msg":"too many consecutive worker failures","worker":"public/frankenphp-worker.php","thread":45,"failures":1,"stacktrace":"github.com/dunglas/frankenphp.tearDownWorkerScript\n\t/go/srcthreadworker.go:138\ngithub.com/dunglas/frankenphp.(*workerThread).afterScriptExecution\n\t/go/srcthreadworker.go:61\ngithub.com/dunglas/frankenphp.go_frankenphp_after_script_execution\n\t/go/srcphpthread.go:155\n_cgoexp_fdabe93e74e3_go_frankenphp_after_script_execution\n\t_cgo_gotypes.go:1817\nruntime.cgocallbackg1\n\t/usr/local/go/src/runtime/cgocall.go:446\nruntime.cgocallbackg\n\t/usr/local/go/src/runtime/cgocall.go:350\nruntime.cgocallback\n\t/usr/local/go/src/runtime/asm_amd64.s:1082"}.  
+
+   INFO  147 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc00038a000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 172 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000356040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 192 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000364000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 170 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000356000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 168 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc00038a040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 131 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000384040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 150 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000124000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 182 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000052dc0, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 191 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000052040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 183 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000052e00, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 159 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000304080, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 148 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000304240, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 162 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc0003040c0, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 116 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000378000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x48d001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 148 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000304000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x48d001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 152 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc0003044c0, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x48d001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 173 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000322540, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 132 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc00029a100, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies.  
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   ERROR  too many consecutive worker failures.  
+
+   ERROR  worker script has not reached frankenphp_handle_request().  
+
+   INFO  panic: {"level":"error","ts":1795021719.0130773,"logger":"frankenphp","msg":"worker script has not reached frankenphp_handle_request()","worker":"public/frankenphp-worker.php","thread":44,"stacktrace":"github.com/dunglas/frankenphp.tearDownWorkerScript\n\t/go/srcthreadworker.go:133\ngithub.com/dunglas/frankenphp.(*workerThread).afterScriptExecution\n\t/go/srcthreadworker.go:61\ngithub.com/dunglas/frankenphp.go_frankenphp_after_script_execution\n\t/go/srcphpthread.go:155\n_cgoexp_fdabe93e74e3_go_frankenphp_after_script_execution\n\t_cgo_gotypes.go:1817\nruntime.cgocallbackg1\n\t/usr/local/go/src/runtime/cgocall.go:446\nruntime.cgocallbackg\n\t/usr/local/go/src/runtime/cgocall.go:350\nruntime.cgocallback\n\t/usr/local/go/src/runtime/asm_amd64.s:1082"}.  
+
+   INFO  too many consecutive worker failures.  
+
+   INFO  goroutine 174 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000392000, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+   INFO  panic: too many consecutive worker failures.  
+
+   INFO  goroutine 131 [running, locked to thread]:  
+
+   INFO  github.com/dunglas/frankenphp.tearDownWorkerScript(0xc000392040, 0x0).  
+
+   INFO  /go/srcthreadworker.go:139 +0xb26.  
+
+   INFO  github.com/dunglas/frankenphp.(*workerThread).afterScriptExecution(0x3?, 0x0?).  
+
+   INFO  /go/srcthreadworker.go:61 +0x13.  
+
+   INFO  github.com/dunglas/frankenphp.go_frankenphp_after_script_execution(0x0?, 0x4001?).  
+
+   INFO  /go/srcphpthread.go:155 +0x3f.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  server is not registered, you must first call frankenphp.Init() with the WithServer() option.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  server is not registered, you must first call frankenphp.Init() with the WithServer() option.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  server is not registered, you must first call frankenphp.Init() with the WithServer() option.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   WARN  worker script has failed on restart.  
+
+   ERROR  loading initial config: loading new config: frankenphp app module: start: failed to initialize workers: too many consecutive failures: worker public/frankenphp-worker.php has not reached frankenphp_handle_request().  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+

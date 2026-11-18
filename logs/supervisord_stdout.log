@@ -1,0 +1,318 @@
+2026-11-18 17:04:18,160 INFO Set uid to user 0 succeeded
+2026-11-18 17:04:18,166 INFO RPC interface 'supervisor' initialized
+2026-11-18 17:04:18,166 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-11-18 17:04:18,167 INFO supervisord started with pid 442
+2026-11-18 17:04:19,173 INFO spawned: 'octane' with pid 445
+2026-11-18 17:04:19,176 INFO spawned: 'default_queue_00' with pid 446
+2026-11-18 17:04:19,179 INFO spawned: 'scheduler_00' with pid 447
+2026-11-18 17:04:20,187 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:04:20,187 INFO success: default_queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:04:20,187 INFO success: scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:04:20,187 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:04:21,192 INFO spawned: 'octane' with pid 537
+2026-11-18 17:04:22,024 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:04:23,030 INFO spawned: 'octane' with pid 632
+2026-11-18 17:04:23,826 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:04:25,833 INFO spawned: 'octane' with pid 715
+2026-11-18 17:04:26,645 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:04:29,652 INFO spawned: 'octane' with pid 806
+2026-11-18 17:04:30,494 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:04:31,496 INFO gave up: octane entered FATAL state, too many start retries too quickly
+2026-11-18 17:05:07,048 INFO Set uid to user 0 succeeded
+2026-11-18 17:05:07,052 INFO RPC interface 'supervisor' initialized
+2026-11-18 17:05:07,053 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-11-18 17:05:07,053 INFO supervisord started with pid 443
+2026-11-18 17:05:08,058 INFO spawned: 'octane' with pid 446
+2026-11-18 17:05:08,060 INFO spawned: 'default_queue_00' with pid 447
+2026-11-18 17:05:08,063 INFO spawned: 'scheduler_00' with pid 448
+2026-11-18 17:05:08,965 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:05:09,971 INFO spawned: 'octane' with pid 540
+2026-11-18 17:05:09,971 INFO success: default_queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:05:09,972 INFO success: scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:05:10,762 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:05:34,970 INFO Set uid to user 0 succeeded
+2026-11-18 17:05:34,975 INFO RPC interface 'supervisor' initialized
+2026-11-18 17:05:34,975 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-11-18 17:05:34,976 INFO supervisord started with pid 443
+2026-11-18 17:05:35,981 INFO spawned: 'octane' with pid 446
+2026-11-18 17:05:35,983 INFO spawned: 'default_queue_00' with pid 447
+2026-11-18 17:05:35,986 INFO spawned: 'scheduler_00' with pid 448
+2026-11-18 17:05:36,894 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:05:37,901 INFO spawned: 'octane' with pid 540
+2026-11-18 17:05:37,902 INFO success: default_queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:05:37,902 INFO success: scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:05:38,810 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:05:40,816 INFO spawned: 'octane' with pid 627
+2026-11-18 17:05:41,642 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:05:44,649 INFO spawned: 'octane' with pid 715
+2026-11-18 17:05:45,460 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:05:46,463 INFO gave up: octane entered FATAL state, too many start retries too quickly
+2026-11-18 17:08:28,624 INFO Set uid to user 0 succeeded
+2026-11-18 17:08:28,628 INFO RPC interface 'supervisor' initialized
+2026-11-18 17:08:28,628 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-11-18 17:08:28,629 INFO supervisord started with pid 443
+2026-11-18 17:08:29,635 INFO spawned: 'octane' with pid 446
+2026-11-18 17:08:29,638 INFO spawned: 'default_queue_00' with pid 447
+2026-11-18 17:08:29,641 INFO spawned: 'scheduler_00' with pid 448
+2026-11-18 17:08:30,571 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:08:31,575 INFO spawned: 'octane' with pid 541
+2026-11-18 17:08:31,576 INFO success: default_queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:08:31,576 INFO success: scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:08:32,417 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:08:34,423 INFO spawned: 'octane' with pid 626
+2026-11-18 17:08:35,219 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:08:38,228 INFO spawned: 'octane' with pid 714
+2026-11-18 17:08:39,068 WARN exited: octane (exit status 2; not expected)
+2026-11-18 17:08:40,071 INFO gave up: octane entered FATAL state, too many start retries too quickly
+2026-11-18 17:09:56,966 INFO Set uid to user 0 succeeded
+2026-11-18 17:09:56,970 INFO RPC interface 'supervisor' initialized
+2026-11-18 17:09:56,970 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-11-18 17:09:56,972 INFO supervisord started with pid 490
+2026-11-18 17:09:57,976 INFO spawned: 'octane' with pid 491
+2026-11-18 17:09:57,979 INFO spawned: 'default_queue_00' with pid 492
+2026-11-18 17:09:57,982 INFO spawned: 'scheduler_00' with pid 493
+2026-11-18 17:09:59,275 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:09:59,275 INFO success: default_queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:09:59,275 INFO success: scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:02,281 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:03,287 INFO spawned: 'octane' with pid 644
+2026-11-18 17:10:04,550 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:07,551 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:08,557 INFO spawned: 'octane' with pid 792
+2026-11-18 17:10:09,848 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:12,846 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:13,851 INFO spawned: 'octane' with pid 931
+2026-11-18 17:10:15,082 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:18,080 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:19,085 INFO spawned: 'octane' with pid 1075
+2026-11-18 17:10:20,331 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:23,327 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:24,333 INFO spawned: 'octane' with pid 1216
+2026-11-18 17:10:25,587 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:28,579 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:29,584 INFO spawned: 'octane' with pid 1359
+2026-11-18 17:10:30,817 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:33,808 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:34,813 INFO spawned: 'octane' with pid 1500
+2026-11-18 17:10:36,033 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:39,022 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:40,028 INFO spawned: 'octane' with pid 1648
+2026-11-18 17:10:41,238 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:44,241 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:45,246 INFO spawned: 'octane' with pid 1789
+2026-11-18 17:10:46,466 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:49,461 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:50,467 INFO spawned: 'octane' with pid 1932
+2026-11-18 17:10:51,697 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:54,690 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:10:55,695 INFO spawned: 'octane' with pid 2078
+2026-11-18 17:10:56,939 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:10:59,931 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:00,329 INFO spawned: 'octane' with pid 2233
+2026-11-18 17:11:01,598 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:11:04,593 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:05,599 INFO spawned: 'octane' with pid 2387
+2026-11-18 17:11:06,828 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:11:09,827 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:10,832 INFO spawned: 'octane' with pid 2546
+2026-11-18 17:11:12,044 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:11:15,039 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:16,044 INFO spawned: 'octane' with pid 2685
+2026-11-18 17:11:17,247 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:11:20,241 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:21,247 INFO spawned: 'octane' with pid 2822
+2026-11-18 17:11:22,484 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:11:25,491 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:26,497 INFO spawned: 'octane' with pid 2965
+2026-11-18 17:11:27,747 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:11:30,742 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:31,746 INFO spawned: 'octane' with pid 3108
+2026-11-18 17:11:32,985 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:11:35,980 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:36,985 INFO spawned: 'octane' with pid 3255
+2026-11-18 17:11:38,179 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:11:41,178 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:42,183 INFO spawned: 'octane' with pid 3404
+2026-11-18 17:11:43,409 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:11:46,413 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:47,419 INFO spawned: 'octane' with pid 3542
+2026-11-18 17:11:48,645 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:11:51,697 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:11:52,703 INFO spawned: 'octane' with pid 3697
+2026-11-18 17:11:54,080 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:05,456 INFO Set uid to user 0 succeeded
+2026-11-18 17:12:05,460 INFO RPC interface 'supervisor' initialized
+2026-11-18 17:12:05,461 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-11-18 17:12:05,461 INFO supervisord started with pid 44
+2026-11-18 17:12:06,467 INFO spawned: 'octane' with pid 45
+2026-11-18 17:12:06,469 INFO spawned: 'default_queue_00' with pid 46
+2026-11-18 17:12:06,472 INFO spawned: 'scheduler_00' with pid 47
+2026-11-18 17:12:07,748 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:07,748 INFO success: default_queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:07,748 INFO success: scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:10,727 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:12:11,733 INFO spawned: 'octane' with pid 193
+2026-11-18 17:12:12,961 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:15,962 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:12:16,968 INFO spawned: 'octane' with pid 334
+2026-11-18 17:12:18,172 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:21,173 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:12:22,179 INFO spawned: 'octane' with pid 476
+2026-11-18 17:12:23,396 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:34,661 INFO Set uid to user 0 succeeded
+2026-11-18 17:12:34,664 INFO RPC interface 'supervisor' initialized
+2026-11-18 17:12:34,665 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-11-18 17:12:34,665 INFO supervisord started with pid 42
+2026-11-18 17:12:35,670 INFO spawned: 'octane' with pid 43
+2026-11-18 17:12:35,672 INFO spawned: 'default_queue_00' with pid 44
+2026-11-18 17:12:35,675 INFO spawned: 'scheduler_00' with pid 45
+2026-11-18 17:12:36,911 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:36,911 INFO success: default_queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:36,911 INFO success: scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:39,887 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:12:40,893 INFO spawned: 'octane' with pid 200
+2026-11-18 17:12:42,105 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:45,109 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:12:46,114 INFO spawned: 'octane' with pid 343
+2026-11-18 17:12:47,346 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:50,350 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:12:51,356 INFO spawned: 'octane' with pid 484
+2026-11-18 17:12:52,596 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:12:55,612 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:12:56,619 INFO spawned: 'octane' with pid 629
+2026-11-18 17:12:57,895 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:00,891 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:01,897 INFO spawned: 'octane' with pid 784
+2026-11-18 17:13:03,169 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:06,173 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:07,179 INFO spawned: 'octane' with pid 933
+2026-11-18 17:13:08,421 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:11,417 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:12,423 INFO spawned: 'octane' with pid 1081
+2026-11-18 17:13:13,659 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:16,659 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:17,664 INFO spawned: 'octane' with pid 1242
+2026-11-18 17:13:18,874 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:21,870 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:22,875 INFO spawned: 'octane' with pid 1383
+2026-11-18 17:13:24,074 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:27,077 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:28,082 INFO spawned: 'octane' with pid 1531
+2026-11-18 17:13:29,304 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:32,298 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:33,304 INFO spawned: 'octane' with pid 1676
+2026-11-18 17:13:34,528 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:37,525 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:38,530 INFO spawned: 'octane' with pid 1817
+2026-11-18 17:13:39,751 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:42,748 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:43,754 INFO spawned: 'octane' with pid 1958
+2026-11-18 17:13:44,994 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:48,001 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:49,008 INFO spawned: 'octane' with pid 2118
+2026-11-18 17:13:50,286 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:53,282 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:54,288 INFO spawned: 'octane' with pid 2268
+2026-11-18 17:13:55,519 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:13:58,514 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:13:59,520 INFO spawned: 'octane' with pid 2416
+2026-11-18 17:14:00,733 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:03,733 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:04,739 INFO spawned: 'octane' with pid 2562
+2026-11-18 17:14:06,049 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:09,055 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:10,060 INFO spawned: 'octane' with pid 2708
+2026-11-18 17:14:11,287 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:14,283 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:15,288 INFO spawned: 'octane' with pid 2847
+2026-11-18 17:14:16,506 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:19,499 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:20,506 INFO spawned: 'octane' with pid 2986
+2026-11-18 17:14:21,727 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:24,720 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:25,726 INFO spawned: 'octane' with pid 3136
+2026-11-18 17:14:26,979 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:29,985 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:30,990 INFO spawned: 'octane' with pid 3292
+2026-11-18 17:14:32,236 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:35,225 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:36,231 INFO spawned: 'octane' with pid 3461
+2026-11-18 17:14:37,468 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:40,457 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:41,463 INFO spawned: 'octane' with pid 3614
+2026-11-18 17:14:42,667 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:45,675 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:46,681 INFO spawned: 'octane' with pid 3752
+2026-11-18 17:14:47,935 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:50,931 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:51,937 INFO spawned: 'octane' with pid 3894
+2026-11-18 17:14:53,165 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:14:56,161 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:14:57,167 INFO spawned: 'octane' with pid 4037
+2026-11-18 17:14:58,386 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:01,379 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:02,384 INFO spawned: 'octane' with pid 4182
+2026-11-18 17:15:03,609 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:06,598 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:07,604 INFO spawned: 'octane' with pid 4330
+2026-11-18 17:15:08,866 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:11,864 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:12,869 INFO spawned: 'octane' with pid 4470
+2026-11-18 17:15:14,072 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:17,069 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:18,075 INFO spawned: 'octane' with pid 4614
+2026-11-18 17:15:19,298 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:22,287 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:23,292 INFO spawned: 'octane' with pid 4755
+2026-11-18 17:15:24,512 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:27,507 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:28,513 INFO spawned: 'octane' with pid 4902
+2026-11-18 17:15:29,743 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:32,734 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:33,739 INFO spawned: 'octane' with pid 5056
+2026-11-18 17:15:34,993 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:37,989 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:38,995 INFO spawned: 'octane' with pid 5200
+2026-11-18 17:15:40,219 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:43,217 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:44,223 INFO spawned: 'octane' with pid 5340
+2026-11-18 17:15:45,453 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:48,443 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:49,448 INFO spawned: 'octane' with pid 5481
+2026-11-18 17:15:50,725 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:53,722 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:54,728 INFO spawned: 'octane' with pid 5629
+2026-11-18 17:15:55,951 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:15:58,960 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:15:59,967 INFO spawned: 'octane' with pid 5780
+2026-11-18 17:16:01,235 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:16:04,224 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:16:05,230 INFO spawned: 'octane' with pid 5926
+2026-11-18 17:16:06,459 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:16:09,446 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:16:10,452 INFO spawned: 'octane' with pid 6067
+2026-11-18 17:16:11,651 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:16:14,660 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:16:15,666 INFO spawned: 'octane' with pid 6206
+2026-11-18 17:16:16,875 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:16:19,870 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:16:20,875 INFO spawned: 'octane' with pid 6348
+2026-11-18 17:16:22,090 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:16:25,100 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:16:26,107 INFO spawned: 'octane' with pid 6496
+2026-11-18 17:16:27,366 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:16:30,371 WARN exited: octane (exit status 1; not expected)
+2026-11-18 17:16:31,375 INFO spawned: 'octane' with pid 6646
+2026-11-18 17:16:53,880 INFO Set uid to user 0 succeeded
+2026-11-18 17:16:53,884 INFO RPC interface 'supervisor' initialized
+2026-11-18 17:16:53,884 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2026-11-18 17:16:53,885 INFO supervisord started with pid 490
+2026-11-18 17:16:54,890 INFO spawned: 'octane' with pid 491
+2026-11-18 17:16:54,893 INFO spawned: 'default_queue_00' with pid 492
+2026-11-18 17:16:54,896 INFO spawned: 'scheduler_00' with pid 493
+2026-11-18 17:16:56,301 INFO success: octane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:16:56,301 INFO success: default_queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:16:56,302 INFO success: scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-11-18 17:21:55,817 INFO exited: default_queue_00 (exit status 0; expected)
+2026-11-18 17:21:56,821 INFO spawned: 'default_queue_00' with pid 673
+2026-11-18 17:21:57,822 INFO success: default_queue_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
