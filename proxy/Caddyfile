@@ -1,0 +1,11 @@
+{
+	auto_https off
+}
+
+http://adguard.localhost {
+	reverse_proxy adguard:80
+}
+
+http://airtrail.localhost {
+	reverse_proxy airtrail:3000
+}

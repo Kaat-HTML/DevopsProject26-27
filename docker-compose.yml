@@ -1,0 +1,65 @@
+services:
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./proxy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - proxy
+
+  adguard:
+    image: adguard/adguardhome:latest
+    restart: unless-stopped
+    ports:
+      
+      
+      # DNS op poort 5353 om conflicten met je besturingssysteem te vermijden
+      - "127.0.0.1:5300:53/tcp"
+      - "127.0.0.1:5300:53/udp"
+    volumes:
+      - ./adguard/work:/opt/adguardhome/work
+      - ./adguard/conf:/opt/adguardhome/conf
+    networks:
+      - proxy
+
+  airtrail:
+    image: johly/airtrail:latest
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      ORIGIN: ${ORIGIN}
+      DB_URL: postgres://airtrail:${DB_PASSWORD}@db:5432/airtrail
+      ADDRESS_HEADER: X-Forwarded-For
+    volumes:
+      - airtrail_uploads:/app/uploads
+    networks:
+      - proxy
+      - backend
+
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: airtrail
+      POSTGRES_USER: airtrail
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - airtrail_db:/var/lib/postgresql/data
+    networks:
+      - backend
+
+networks:
+  proxy:
+  backend:
+    internal: true # geen internet, niet bereikbaar van buitenaf
+
+volumes:
+  caddy_data:
+  caddy_config:
+  airtrail_uploads:
+  airtrail_db:
