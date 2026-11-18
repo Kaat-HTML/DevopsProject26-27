@@ -1,4 +1,11 @@
 services:
+  uptimekuma:
+    image: louislam/uptime-kuma:1
+    restart: unless-stopped
+    volumes:
+      - uptimekuma_data:/app/data
+    networks:
+      - proxy
   discountbandit:
     image: cybrarist/discount-bandit:v4
     restart: unless-stopped
@@ -80,3 +87,4 @@ volumes:
   airtrail_db:
   discountbandit_db:
   discountbandit_logs:
+  uptimekuma_data:

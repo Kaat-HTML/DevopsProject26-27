@@ -13,3 +13,7 @@ http://airtrail.localhost {
 http://discountbandit.localhost {
 	reverse_proxy discountbandit:80
 }
+
+http://status.localhost {
+	reverse_proxy uptimekuma:3001
+}
