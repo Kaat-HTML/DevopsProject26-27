@@ -1,19 +1,29 @@
+
 {
-	auto_https off
+    auto_https off
 }
 
+# NetShield homepage
+http://homepc.tail4df462.ts.net {
+    reverse_proxy static-site:80
+}
+
+# AdGuard Home
 http://adguard.localhost {
-	reverse_proxy adguard:80
+    reverse_proxy adguard:80
 }
 
+# AirTrail
 http://airtrail.localhost {
-	reverse_proxy airtrail:3000
+    reverse_proxy airtrail:3000
 }
 
+# Discount Bandit
 http://discountbandit.localhost {
-	reverse_proxy discountbandit:80
+    reverse_proxy discountbandit:80
 }
 
-http://status.localhost {
-	reverse_proxy uptimekuma:3001
+# Uptime Kuma via lokale Caddy-poort 8081
+:8081 {
+    reverse_proxy uptimekuma:3001
 }

@@ -1,4 +1,11 @@
 services:
+  static-site:
+    image: nginx:alpine
+    restart: unless-stopped
+    volumes:
+      - ./site:/usr/share/nginx/html:ro
+    networks:
+      - proxy
   uptimekuma:
     image: louislam/uptime-kuma:2
     restart: unless-stopped
@@ -14,8 +21,8 @@ services:
       DB_DATABASE: /app/database/sqlite/database.sqlite
       APP_TIMEZONE: Europe/Brussels
       THEME_COLOR: Red
-      APP_URL: http://discountbandit.localhost
-      ASSET_URL: http://discountbandit.localhost
+      APP_URL: https://homepc.tail4df462.ts.net
+      ASSET_URL: https://homepc.tail4df462.ts.net
       EXCHANGE_RATE_API_KEY: ${EXCHANGE_RATE_API_KEY}
       APP_KEY: ${APP_KEY}
     volumes:
@@ -28,6 +35,7 @@ services:
     restart: unless-stopped
     ports:
       - "80:80"
+      - "127.0.0.1:8081:8081"
     volumes:
       - ./proxy/Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data

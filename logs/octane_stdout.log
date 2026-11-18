@@ -5490,3 +5490,17 @@
 
    WARN  HTTP/3 skipped because it requires TLS.  
 
+
+   INFO  Server running….  
+
+
+  Local: http://$FRANKEN_HOST:80 
+
+  Press Ctrl+C to stop the server
+
+   WARN  server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server.  
+
+   WARN  HTTP/2 skipped because it requires TLS.  
+
+   WARN  HTTP/3 skipped because it requires TLS.  
+

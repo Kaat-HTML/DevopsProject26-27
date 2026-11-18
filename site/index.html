@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetShield - Mijn Self-Hosted Setup</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 70px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #1e3a8a, #0f172a);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #bfdbfe;
+            font-size: 1.15rem;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #60a5fa;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 16px 0;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+
+        .service {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+
+        .service h3 {
+            color: #93c5fd;
+            margin-top: 0;
+        }
+
+        .tag {
+            color: #86efac;
+            font-size: 0.85rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #94a3b8;
+            border-top: 1px solid #334155;
+            margin-top: 60px;
+        }
+
+        code {
+            color: #93c5fd;
+        }
+
+.service a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.service a:hover {
+    color: #93c5fd;
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DevOps Project 26-27</h1>
+    <p>Mijn persoonlijke self-hosted omgeving</p>
+    <p>Een DevOps-project rond hosting, automatisering en beveiliging.</p>
+</header>
+
+<main>
+    <section>
+        <h2>Over dit project</h2>
+        <div class="card">
+            <p>
+                NetShield is mijn eigen self-hosted omgeving.
+                Het doel van dit project is om verschillende webapplicaties
+                op eigen hardware te hosten en ze op een veilige en
+                gestructureerde manier beschikbaar te maken.
+            </p>
+            <p>
+                De infrastructuur wordt beheerd met Docker Compose.
+                Caddy verzorgt de reverse proxy en Tailscale maakt
+                de omgeving via een beveiligde HTTPS-verbinding bereikbaar
+                voor apparaten binnen mijn tailnet.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Architectuur</h2>
+        <div class="card">
+            <p><strong>Bezoeker</strong></p>
+            <p>↓ HTTPS</p>
+            <p><strong>Tailscale Serve</strong></p>
+            <p>↓</p>
+            <p><strong>Caddy - Reverse Proxy</strong></p>
+            <p>↓</p>
+            <p><strong>Docker-netwerk: proxy</strong></p>
+            <p>↓</p>
+            <p>Webapplicaties en services</p>
+            <p>↓</p>
+            <p><strong>Intern Docker-netwerk: backend</strong></p>
+            <p>PostgreSQL-database voor AirTrail</p>
+        </div>
+    </section>
+
+    <section>
+        
+<h2>Mijn services</h2>
+
+
+<div class="services">
+
+    <div class="service">
+        <h3>Uptime Kuma</h3>
+        <p>Bekijk of mijn services online zijn.</p>
+        <a href="https://homepc.tail4df462.ts.net:8443" target="_blank">
+            Open Uptime Kuma →
+        </a>
+    </div>
+
+    <div class="service">
+        <h3>Discount Bandit</h3>
+        <p>Mijn applicatie voor kortingen.</p>
+        <a href="http://discountbandit.localhost" target="_blank">
+            Open Discount Bandit →
+        </a>
+    </div>
+
+    <div class="service">
+        <h3>AirTrail</h3>
+        <p>Mijn applicatie voor reisbeheer.</p>
+        <a href="http://airtrail.localhost" target="_blank">
+            Open AirTrail →
+        </a>
+    </div>
+
+    <div class="service">
+        <h3>AdGuard Home</h3>
+        <p>DNS-beheer en filtering.</p>
+        <a href="http://adguard.localhost" target="_blank">
+            Open AdGuard Home →
+        </a>
+    </div>
+
+    <div class="service">
+        <h3>NetShield Info</h3>
+        <p>Je bevindt je momenteel op deze infopagina.</p>
+    </div>
+
+</div>
+
+
+    </section>
+
+    <section>
+        <h2>Technologieën</h2>
+        <div class="card">
+            <p>
+                Docker · Docker Compose · Caddy · Tailscale · PostgreSQL
+                · HTML · Git
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Beveiliging en beheer</h2>
+        <div class="card">
+            <p>
+                De services communiceren via afzonderlijke Docker-netwerken.
+                De PostgreSQL-database is ondergebracht in een intern netwerk
+                en wordt niet rechtstreeks publiek beschikbaar gemaakt.
+            </p>
+            <p>
+                De externe verbinding verloopt via Tailscale met HTTPS.
+                Configuratie en verdere automatisering worden bijgehouden
+                in versiebeheer.
+            </p>
+            <p>
+                Backupstrategie, authenticatie en verdere beveiligingsmaatregelen
+                worden tijdens de verdere ontwikkeling van het project uitgewerkt.
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    NetShield - DevOps Self-Hosted Project
+</footer>
+
+</body>
+</html>
