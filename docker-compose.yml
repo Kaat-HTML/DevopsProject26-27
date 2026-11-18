@@ -1,4 +1,19 @@
 services:
+  discountbandit:
+    image: cybrarist/discount-bandit:v4
+    restart: unless-stopped
+    environment:
+      DB_CONNECTION: sqlite
+      APP_TIMEZONE: Europe/Brussels
+      THEME_COLOR: Red
+      APP_URL: http://discountbandit.localhost
+      ASSET_URL: http://discountbandit.localhost
+      EXCHANGE_RATE_API_KEY: ""
+    volumes:
+      - discountbandit_db:/app/database
+      - discountbandit_logs:/logs
+    networks:
+      - proxy
   caddy:
     image: caddy:2
     restart: unless-stopped
@@ -63,3 +78,5 @@ volumes:
   caddy_config:
   airtrail_uploads:
   airtrail_db:
+  discountbandit_db:
+  discountbandit_logs:

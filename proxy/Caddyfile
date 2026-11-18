@@ -9,3 +9,7 @@ http://adguard.localhost {
 http://airtrail.localhost {
 	reverse_proxy airtrail:3000
 }
+
+http://discountbandit.localhost {
+	reverse_proxy discountbandit:80
+}
