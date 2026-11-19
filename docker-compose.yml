@@ -1,4 +1,15 @@
 services:
+  2fauth:
+    image: 2fauth/2fauth:latest
+    restart: unless-stopped
+    environment:
+      APP_URL: http://2fauth.localhost
+      APP_KEY: ${TWOFAUTH_APP_KEY}
+      APP_ENV: production
+    volumes:
+      - ./2fauth:/2fauth
+    networks:
+      - proxy
   static-site:
     image: nginx:alpine
     restart: unless-stopped

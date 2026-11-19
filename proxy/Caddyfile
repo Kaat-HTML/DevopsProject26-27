@@ -27,3 +27,8 @@ http://discountbandit.localhost {
 :8081 {
     reverse_proxy uptimekuma:3001
 }
+
+# 2FAuth
+http://2fauth.localhost {
+    reverse_proxy 2fauth:8000
+}
