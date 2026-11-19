@@ -1,15 +1,4 @@
 services:
-  2fauth:
-    image: 2fauth/2fauth:latest
-    restart: unless-stopped
-    environment:
-      APP_URL: http://2fauth.localhost
-      APP_KEY: ${TWOFAUTH_APP_KEY}
-      APP_ENV: production
-    volumes:
-      - ./2fauth:/2fauth
-    networks:
-      - proxy
   static-site:
     image: nginx:alpine
     restart: unless-stopped
@@ -17,6 +6,7 @@ services:
       - ./site:/usr/share/nginx/html:ro
     networks:
       - proxy
+
   uptimekuma:
     image: louislam/uptime-kuma:2
     restart: unless-stopped
@@ -24,6 +14,7 @@ services:
       - uptimekuma_data:/app/data
     networks:
       - proxy
+
   discountbandit:
     image: cybrarist/discount-bandit:v4.0.5
     restart: unless-stopped
@@ -41,6 +32,36 @@ services:
       - ./logs:/logs
     networks:
       - proxy
+
+  2fauth:
+    image: 2fauth/2fauth:latest
+    restart: unless-stopped
+    environment:
+      APP_URL: http://2fauth.localhost
+      APP_KEY: ${TWOFAUTH_APP_KEY}
+      APP_ENV: production
+    volumes:
+      - ./2fauth:/2fauth
+    networks:
+      - proxy
+
+  backlog:
+    build:
+      context: ./backlog
+      dockerfile_inline: |
+        FROM python:3.12-slim
+        WORKDIR /app
+        RUN pip install --no-cache-dir Flask==3.0.3 gunicorn==22.0.0
+        COPY app.py .
+        RUN useradd -m app && mkdir /data && chown app /data
+        USER app
+        CMD ["gunicorn", "-b", "0.0.0.0:5000", "app:app"]
+    restart: unless-stopped
+    volumes:
+      - backlog_data:/data
+    networks:
+      - proxy
+
   caddy:
     image: caddy:2
     restart: unless-stopped
@@ -58,9 +79,7 @@ services:
     image: adguard/adguardhome:latest
     restart: unless-stopped
     ports:
-      
-      
-      # DNS op poort 5353 om conflicten met je besturingssysteem te vermijden
+      # DNS op poort 5300 (5353 is geblokkeerd op Windows)
       - "127.0.0.1:5300:53/tcp"
       - "127.0.0.1:5300:53/udp"
     volumes:
@@ -106,6 +125,5 @@ volumes:
   caddy_config:
   airtrail_uploads:
   airtrail_db:
-  discountbandit_db:
-  discountbandit_logs:
   uptimekuma_data:
+  backlog_data:

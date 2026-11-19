@@ -32,3 +32,13 @@ http://discountbandit.localhost {
 http://2fauth.localhost {
     reverse_proxy 2fauth:8000
 }
+
+# Game Backlog (eigen applicatie)
+http://backlog.localhost {
+    reverse_proxy backlog:5000
+}
+
+# Infopagina lokaal
+http://info.localhost {
+    reverse_proxy static-site:80
+}
