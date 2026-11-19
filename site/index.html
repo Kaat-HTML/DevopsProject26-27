@@ -1,242 +1,185 @@
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NetShield - Mijn Self-Hosted Setup</title>
+    <title>Mijn homelab</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: #e2e8f0;
-            line-height: 1.6;
+            font-family: Georgia, "Times New Roman", serif;
+            background: #faf8f4;
+            color: #222;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 20px 80px;
+            line-height: 1.65;
         }
 
-        header {
-            padding: 70px 20px;
-            text-align: center;
-            background: linear-gradient(135deg, #1e3a8a, #0f172a);
-        }
-
-        header h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            color: #bfdbfe;
-            font-size: 1.15rem;
-        }
-
-        main {
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 0 20px;
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 4px;
         }
 
         h2 {
-            color: #60a5fa;
-            margin-top: 40px;
+            font-size: 1.3rem;
+            margin-top: 48px;
+            padding-bottom: 4px;
+            border-bottom: 1px solid #d8d2c4;
         }
 
-        .card {
-            background: #1e293b;
-            border: 1px solid #334155;
-            border-radius: 12px;
-            padding: 22px;
-            margin: 16px 0;
-        }
-
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 16px;
-        }
-
-        .service {
-            background: #1e293b;
-            padding: 20px;
-            border-radius: 12px;
-            border: 1px solid #334155;
-        }
-
-        .service h3 {
-            color: #93c5fd;
+        .sub {
+            color: #666;
             margin-top: 0;
         }
 
-        .tag {
-            color: #86efac;
-            font-size: 0.85rem;
+        a {
+            color: #1a5fb4;
         }
 
-        footer {
-            text-align: center;
-            padding: 30px;
-            color: #94a3b8;
-            border-top: 1px solid #334155;
-            margin-top: 60px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px 10px 8px 0;
+            border-bottom: 1px solid #e6e1d5;
+            vertical-align: top;
+        }
+
+        th {
+            font-weight: bold;
+            color: #555;
+        }
+
+        pre {
+            background: #f0ece2;
+            padding: 14px 16px;
+            overflow-x: auto;
+            font-size: 0.85rem;
+            line-height: 1.4;
         }
 
         code {
-            color: #93c5fd;
+            background: #f0ece2;
+            padding: 1px 4px;
         }
 
-.service a {
-    display: inline-block;
-    margin-top: 12px;
-    color: #60a5fa;
-    text-decoration: none;
-    font-weight: bold;
-}
+        .eigen {
+            font-style: italic;
+            color: #555;
+        }
 
-.service a:hover {
-    color: #93c5fd;
-    text-decoration: underline;
-}
-
+        footer {
+            margin-top: 60px;
+            color: #777;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>DevOps Project 26-27</h1>
-    <p>Mijn persoonlijke self-hosted omgeving</p>
-    <p>Een DevOps-project rond hosting, automatisering en beveiliging.</p>
-</header>
+<h1>Mijn homelab</h1>
+<p class="sub">Schoolproject DevOps 2026-27, door Lucas</p>
 
-<main>
-    <section>
-        <h2>Over dit project</h2>
-        <div class="card">
-            <p>
-                NetShield is mijn eigen self-hosted omgeving.
-                Het doel van dit project is om verschillende webapplicaties
-                op eigen hardware te hosten en ze op een veilige en
-                gestructureerde manier beschikbaar te maken.
-            </p>
-            <p>
-                De infrastructuur wordt beheerd met Docker Compose.
-                Caddy verzorgt de reverse proxy en Tailscale maakt
-                de omgeving via een beveiligde HTTPS-verbinding bereikbaar
-                voor apparaten binnen mijn tailnet.
-            </p>
-        </div>
-    </section>
+<h2>Waar gaat dit over?</h2>
+<p>
+    Dit is mijn eigen kleine serveromgeving. Alles draait in Docker op mijn
+    eigen pc en wordt met één <code>docker-compose.yml</code> opgestart. Ik heb
+    vooral diensten gekozen die ik zelf wil gebruiken: een reisdagboek, een
+    plek voor mijn 2FA-codes, een lijst met games die ik nog wil spelen en
+    nog wat andere dingen.
+</p>
+<p>
+    De diensten staan achter een reverse proxy (Caddy). Van buitenaf is alleen
+    Caddy bereikbaar, de rest praat onderling via Docker-netwerken. Voor
+    toegang van buitenaf gebruik ik Tailscale, dus alleen mijn eigen
+    apparaten komen erbij.
+</p>
 
-    <section>
-        <h2>Architectuur</h2>
-        <div class="card">
-            <p><strong>Bezoeker</strong></p>
-            <p>↓ HTTPS</p>
-            <p><strong>Tailscale Serve</strong></p>
-            <p>↓</p>
-            <p><strong>Caddy - Reverse Proxy</strong></p>
-            <p>↓</p>
-            <p><strong>Docker-netwerk: proxy</strong></p>
-            <p>↓</p>
-            <p>Webapplicaties en services</p>
-            <p>↓</p>
-            <p><strong>Intern Docker-netwerk: backend</strong></p>
-            <p>PostgreSQL-database voor AirTrail</p>
-        </div>
-    </section>
+<h2>Mijn diensten</h2>
+<table>
+    <tr>
+        <th>Dienst</th>
+        <th>Waarvoor ik hem gebruik</th>
+    </tr>
+    <tr>
+        <td><a href="http://airtrail.localhost" target="_blank">AirTrail</a></td>
+        <td>Bijhouden van de vluchten die ik gemaakt heb. Gebruikt PostgreSQL.</td>
+    </tr>
+    <tr>
+        <td><a href="http://2fauth.localhost" target="_blank">2FAuth</a></td>
+        <td>Mijn 2FA-codes, zodat ze niet in een app van een ander bedrijf staan.</td>
+    </tr>
+    <tr>
+        <td><a href="http://backlog.localhost" target="_blank">Game Backlog</a></td>
+        <td class="eigen">Zelf geschreven (Python en Flask, met SQLite). Een lijst van games die ik nog wil spelen, bezig ben of uitgespeeld heb.</td>
+    </tr>
+    <tr>
+        <td><a href="http://discountbandit.localhost" target="_blank">Discount Bandit</a></td>
+        <td>Prijzen van producten volgen, zodat ik zie wanneer iets in de aanbieding is.</td>
+    </tr>
+    <tr>
+        <td><a href="http://adguard.localhost" target="_blank">AdGuard Home</a></td>
+        <td>DNS-filter dat reclame en trackers blokkeert.</td>
+    </tr>
+    <tr>
+        <td><a href="https://homepc.tail4df462.ts.net:8443" target="_blank">Uptime Kuma</a></td>
+        <td>Controleert of al de rest online is.</td>
+    </tr>
+    <tr>
+        <td>Deze pagina</td>
+        <td>Een statische pagina in nginx, om de setup uit te leggen.</td>
+    </tr>
+</table>
 
-    <section>
-        
-<h2>Mijn services</h2>
+<h2>Hoe het in elkaar zit</h2>
+<pre>
+bezoeker
+   |
+   | HTTPS (Tailscale)
+   v
+Caddy (reverse proxy)
+   |
+   |  netwerk "proxy"
+   +-- infopagina (nginx)
+   +-- AirTrail --------------+
+   +-- 2FAuth                 |  netwerk "backend"
+   +-- Game Backlog           |  (intern, geen toegang van buitenaf)
+   +-- Discount Bandit        |
+   +-- AdGuard Home           +-- PostgreSQL
+   +-- Uptime Kuma
+</pre>
+<p>
+    De PostgreSQL-database van AirTrail staat alleen in het netwerk
+    <code>backend</code>. Dat netwerk is als <code>internal</code> ingesteld,
+    dus er is geen weg naar buiten of naar binnen, behalve via AirTrail zelf.
+</p>
 
+<h2>Hoe ik ermee werk</h2>
+<p>
+    Alle configuratie en code staan in Git. Wachtwoorden en sleutels staan in
+    een <code>.env</code>-bestand dat niet in de repository zit; in
+    <code>.env.example</code> staat welke variabelen er nodig zijn. Waar
+    het kan, heb ik de versie van een image vastgezet, zodat een update niet
+    ongemerkt iets kapotmaakt.
+</p>
 
-<div class="services">
-
-    <div class="service">
-        <h3>Uptime Kuma</h3>
-        <p>Bekijk of mijn services online zijn.</p>
-        <a href="https://homepc.tail4df462.ts.net:8443" target="_blank">
-            Open Uptime Kuma →
-        </a>
-    </div>
-
-    <div class="service">
-        <h3>Discount Bandit</h3>
-        <p>Mijn applicatie voor kortingen.</p>
-        <a href="http://discountbandit.localhost" target="_blank">
-            Open Discount Bandit →
-        </a>
-    </div>
-
-    <div class="service">
-        <h3>AirTrail</h3>
-        <p>Mijn applicatie voor reisbeheer.</p>
-        <a href="http://airtrail.localhost" target="_blank">
-            Open AirTrail →
-        </a>
-    </div>
-
-    <div class="service">
-        <h3>AdGuard Home</h3>
-        <p>DNS-beheer en filtering.</p>
-        <a href="http://adguard.localhost" target="_blank">
-            Open AdGuard Home →
-        </a>
-    </div>
-
-    <div class="service">
-        <h3>NetShield Info</h3>
-        <p>Je bevindt je momenteel op deze infopagina.</p>
-    </div>
-        <div class="service">
-        <h3>2FAuth</h3>
-        <p>Mijn eigen beheer van 2FA-codes.</p>
-        <a href="http://2fauth.localhost" target="_blank">
-            Open 2FAuth →
-        </a>
-    </div>
-
-</div>
-
-
-    </section>
-
-    <section>
-        <h2>Technologieën</h2>
-        <div class="card">
-            <p>
-                Docker · Docker Compose · Caddy · Tailscale · PostgreSQL
-                · HTML · Git
-            </p>
-        </div>
-    </section>
-
-    <section>
-        <h2>Beveiliging en beheer</h2>
-        <div class="card">
-            <p>
-                De services communiceren via afzonderlijke Docker-netwerken.
-                De PostgreSQL-database is ondergebracht in een intern netwerk
-                en wordt niet rechtstreeks publiek beschikbaar gemaakt.
-            </p>
-            <p>
-                De externe verbinding verloopt via Tailscale met HTTPS.
-                Configuratie en verdere automatisering worden bijgehouden
-                in versiebeheer.
-            </p>
-            <p>
-                Backupstrategie, authenticatie en verdere beveiligingsmaatregelen
-                worden tijdens de verdere ontwikkeling van het project uitgewerkt.
-            </p>
-        </div>
-    </section>
-</main>
+<h2>Wat nog moet</h2>
+<p>
+    Dit project is nog bezig. Dit staat nog op mijn lijst:
+</p>
+<ul>
+    <li>Inloggen voor alle diensten via één identity provider</li>
+    <li>Back-ups van de databases en volumes, en testen of terugzetten werkt</li>
+    <li>Automatisch uitrollen bij een push naar Git</li>
+    <li>Alle images op een vaste versie zetten (een paar staan nog op <code>latest</code>)</li>
+</ul>
 
 <footer>
-    NetShield - DevOps Self-Hosted Project
+    Broncode en configuratie: <a href="https://github.com/Kaat-HTML/DevopsProject26-27" target="_blank">GitHub</a>
 </footer>
 
 </body>
